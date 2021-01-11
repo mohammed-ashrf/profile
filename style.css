@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/*-----------nav bar-----------------*/
+
+#nav-bar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.navbrand img {
+    height: 40px;
+    padding-left: 30px;
+}
+
+.navbar-nav li {
+    padding: 0 10px;
+}
+
+.navbar-nav li a {
+    float: right;
+    text-align: left;
+}
+
+#nav-bar ul li a:hover {
+    color: #007bff !important;
+}
+
+.navbar {
+    background: #fff;
+}
+
+.navbar-toggler {
+    border: none !important;
+}
+
+.nav-link {
+    color: #555 !important;
+    font-weight: 600;
+    font-size: 16px;
+}
+/*--slider--*/
+
+#slider {
+    width: 100%;
+}
+
+.carousel-caption {
+    top: 50%;
+    transform: translateY(-50%);
+    bottom: initial !important;
+}
+
+.carousel-caption h5 {
+    color: #fff;
+    font-size: 100px;
+    font-family: Vladimir Script;
+    font-style: italic;
+}
+.carousel-caption h2 {
+    color: #fff;
+    font-size: 100px;
+    font-family: Vladimir Script;
+    font-style: italic;
+}
+#member {
+    background-color: white;
+    color: black;
+    border: 2px solid #4CAF50; /* Green */
+    transition-duration: 0.4s;
+    width: 250px;
+    height: 50px;
+    display: inline-block;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #cf1f1f;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+/*---------content----------*/
+.break {
+    color: #45c2c2;
+}
+.header2 {
+    color: #4cA;
+}
+/*-------team member-------*/
+
+#team {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #555;
+}
+
+h1 {
+    text-align: center;
+    color: #555 !important;
+    padding-bottom: 10px;
+}
+
+h1::after {
+    content: '';
+    background: #007bff;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+}
+
+.profile-pic {
+    margin-top: 25px;
+}
+
+.profile-pic .img-box {
+    opacity: 1;
+    display: block;
+    position: relative;
+}
+
+.profile-pic .img-box img {
+    filter: grayscale(1);
+}
+
+.profile-pic .img-box img:hover {
+    filter: grayscale(0);
+    cursor: pointer;
+}
+
+.profile-pic h2 {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 15px;
+    color: #007bff !important;
+}
+
+.profile-pic h3 {
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+#team .fa {
+    height: 25px;
+    width: 25px;
+    color: #007bff !important;
+    background: #fff;
+    padding: 4px;
+    border-radius: 50%;
+}
+
+.img-box ul {
+    padding: 15px 0;
+    position: absolute;
+    z-index: 2;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+}
+
+.img-box ul li {
+    padding: 5px;
+    display: inline-block;
+}
+
+.img-box:hover ul {
+    opacity: 1;
+}
+
+.img-box ul,
+.img-box ul li {
+    transition: 0.5s;
+}
+  /*------------footer------------*/
+
+#footer {
+    background: #333;
+    color: #fff;
+    padding: 8px;
+    font-family: Vladimir Script;
+}
+
